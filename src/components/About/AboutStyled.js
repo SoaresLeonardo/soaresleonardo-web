@@ -9,20 +9,28 @@ export const AboutContainer = styled.div`
   align-items: flex-start;
   justify-content: space-around;
   padding: 20px;
+
+  @media (max-width: 760px) {
+    flex-direction: column;
+  }
 `;
 export const AboutIntro = styled.div`
   text-align: start;
-  width: 60%;
+  width: 50%;
+
+  @media (max-width: 760px) {
+    width: 90%;
+    padding-top: 20px;
+  }
 `;
 export const AboutImage = styled.div`
-  width: 50%;
+  width: 35%;
   display: flex;
   align-items: center;
   justify-content: center;
 
   img {
-    width: 20rem;
-    height: 20rem;
+    width: 100%;
     border-radius: 25px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -44,3 +52,33 @@ export const Subtitle = styled.span`
   color: #6e57e0;
 `;
 export const Description = styled.p``;
+export const AboutSkillsContainer = styled.div`
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+`;
+
+export const Skill = styled.div`
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+`;
+export const SkillName = styled.span``;
+export const SkillCheck = styled.span`
+  border: 1px solid #aca9b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+`;
