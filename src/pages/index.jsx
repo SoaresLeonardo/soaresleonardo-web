@@ -24,7 +24,7 @@ export default function HomePage() {
             <ButtonElement>
               Meus projetos <AiOutlineArrowRight />
             </ButtonElement>
-            <ButtonElement>Sobre</ButtonElement>
+            <ButtonElement>Quem eu sou?</ButtonElement>
           </HomeActions>
         </HomeIntro>
         <HomeImage>
