@@ -18,7 +18,7 @@ export default function HeaderPage() {
   };
 
   return (
-    <Header>
+    <Header id="home">
       <HeaderContainer>
         <TitleContainer>
           <Title>Leonardo</Title>
