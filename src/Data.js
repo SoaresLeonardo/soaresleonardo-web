@@ -1,0 +1,33 @@
+const myProject1 = "../public/img/project1.png";
+const myProject2 = "../public/img/project2.png";
+const myProject3 = "../public/img/project3.png";
+
+export const myProjects = [
+  {
+    id: 1,
+    img: myProject1,
+    name: "Buscador de cep",
+    description:
+      "Um projeto feito em ReactJS para consumir uma API externa que busca dados relacionados a um cep.",
+    hrefDemo: "https://buscador-cep-react-mu.vercel.app/",
+    hrefCode: "https://github.com/SoaresLeonardo/buscador-cep-react",
+  },
+  {
+    id: 2,
+    img: myProject2,
+    name: "Shopping cart",
+    description:
+      "Meu projeto shopping cart feito em ReactJS, onde podemos adicionar um item ao carrinho e remover.",
+    hrefDemo: "https://shopping-cart-sooty-one.vercel.app/",
+    hrefCode: "https://github.com/SoaresLeonardo/shopping-cart",
+  },
+  {
+    id: 3,
+    img: myProject3,
+    name: "Tela de login",
+    description:
+      "Uma tela de login e cadastro feita em HTML5, CSS3 e JavaScript e contém validações de campo.",
+    hrefDemo: "https://login-page-one-self.vercel.app/",
+    hrefCode: "https://github.com/SoaresLeonardo/login-page",
+  },
+];

@@ -1,7 +1,7 @@
 import "./App.css";
 import { AboutPage } from "./components/About";
 import HeaderPage from "./components/Header";
-import Projects from "./components/Projects";
+import ProjectsPage from "./components/Projects";
 import HomePage from "./pages";
 
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
       <HeaderPage />
       <HomePage />
       <AboutPage />
-      <Projects />
+      <ProjectsPage />
     </div>
   );
 }
