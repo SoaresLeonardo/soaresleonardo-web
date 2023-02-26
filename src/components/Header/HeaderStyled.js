@@ -5,6 +5,10 @@ export const Header = styled.div`
   align-items: center;
   justify-content: center;
   height: 80px;
+
+  @media (max-width: 760px) {
+    background-color: #252231;
+  }
 `;
 
 export const HeaderContainer = styled.div`
@@ -29,6 +33,7 @@ export const Menu = styled.div`
   font-size: 20px;
   display: none;
   cursor: pointer;
+  color: #6e57e0;
 
   @media (max-width: 560px) {
     display: flex;
