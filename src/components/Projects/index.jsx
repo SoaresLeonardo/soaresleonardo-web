@@ -19,7 +19,7 @@ import { RiTestTubeFill } from "react-icons/ri";
 
 export default function ProjectsPage() {
   return (
-    <Projects>
+    <Projects id="projects">
       <ProjectsContainer>
         <ProjectsIntro>
           <Title>Meus projetos</Title>
