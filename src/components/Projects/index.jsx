@@ -27,7 +27,7 @@ export default function ProjectsPage() {
         </ProjectsIntro>
         <ProjectsCard>
           {myProjects.map((item) => (
-            <Card>
+            <Card key={item.id}>
               <CardImage>
                 <img src={item.img} alt="Card Image" />
               </CardImage>
