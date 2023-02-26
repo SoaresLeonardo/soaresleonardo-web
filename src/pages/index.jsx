@@ -10,6 +10,8 @@ import {
   Title,
 } from "../styles/HomeStyled";
 
+import { AiOutlineArrowRight } from "react-icons/ai";
+
 export default function HomePage() {
   return (
     <Home>
@@ -19,7 +21,10 @@ export default function HomePage() {
           <Title>Eu sou Leonardo.</Title>
           <Description>Desenvolvedor front-end</Description>
           <HomeActions>
-            <ButtonElement>Meus projetos</ButtonElement>
+            <ButtonElement>
+              Meus projetos <AiOutlineArrowRight />
+            </ButtonElement>
+            <ButtonElement>Sobre</ButtonElement>
           </HomeActions>
         </HomeIntro>
         <HomeImage>
