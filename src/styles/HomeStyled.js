@@ -58,9 +58,9 @@ export const HomeImage = styled.div`
   img {
     width: 100%;
     border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0;
   }
 
   @media (max-width: 928px) {
