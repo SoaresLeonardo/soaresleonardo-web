@@ -21,10 +21,10 @@ export default function HomePage() {
           <Title>Eu sou Leonardo.</Title>
           <Description>Desenvolvedor front-end</Description>
           <HomeActions>
-            <ButtonElement>
+            <ButtonElement href="#projects">
               Meus projetos <AiOutlineArrowRight />
             </ButtonElement>
-            <ButtonElement>Quem eu sou?</ButtonElement>
+            <ButtonElement href="#about">Quem eu sou?</ButtonElement>
           </HomeActions>
         </HomeIntro>
         <HomeImage>
