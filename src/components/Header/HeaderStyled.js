@@ -6,6 +6,7 @@ export const Header = styled.div`
   justify-content: center;
   height: 80px;
 
+
   @media (max-width: 760px) {
     background-color: #252231;
   }
@@ -17,6 +18,7 @@ export const HeaderContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
+  z-index: 1;
 `;
 
 export const TitleContainer = styled.div`
@@ -51,22 +53,36 @@ export const HeaderLinks = styled.nav`
   @media (max-width: 560px) {
     flex-direction: column;
     background-color: #6e57e0;
-    position: ${(props) => (props.sidebar ? 'absolute' : 'fixed')};
+    position: fixed;
     height: 60%;
     gap: 0px;
-    top: 70px;
+    top: 0;
     right: 0px;
-    width: 100%;
-    height: 400px;
+    width: 60%;
+    height: 100%;
     right: ${(props) => (props.sidebar ? "0" : "-100%")};
     transition: 0.3s;
     a {
-      margin-top: 50px;
+      margin-top: 80px;
       margin-left: 10px;
       display: flex;
       align-items: center;
       justify-content: space-around;
     }
+  }
+`;
+
+
+export const CloseSidebar = styled.div`
+  font-size: 30px;
+  right: 15px;
+  top: 35px;
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  
+  @media (max-width: 560px) {
+    display: flex;
   }
 `;
 

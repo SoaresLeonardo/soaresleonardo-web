@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {
+  CloseSidebar,
   Header,
   HeaderContainer,
   HeaderLinks,
@@ -24,13 +25,12 @@ export default function HeaderPage() {
           <Title>Leonardo.</Title>
         </TitleContainer>
         <Menu>
-          {sidebar ? (
-            <FaTimes onClick={showSiderbar} />
-          ) : (
-            <FaBars onClick={showSiderbar} />
-          )}
+          <FaBars onClick={showSiderbar} />
         </Menu>
         <HeaderLinks sidebar={sidebar}>
+          <CloseSidebar>
+          <FaTimes onClick={showSiderbar} />
+          </CloseSidebar>
           <Link>
             <a href="#home">Home</a>
           </Link>
