@@ -59,7 +59,7 @@ export const HeaderLinks = styled.nav`
     top: 0;
     right: 0px;
     width: 60%;
-    height: 100%;
+    height: 100vh;
     right: ${(props) => (props.sidebar ? "0" : "-100%")};
     transition: 0.3s;
     a {
