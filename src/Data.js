@@ -1,6 +1,6 @@
-const myProject1 = "../public/img/project1.png";
-const myProject2 = "../public/img/project2.png";
-const myProject3 = "../public/img/project3.png";
+const myProject1 = "/project1.png";
+const myProject2 = "/project2.png";
+const myProject3 = "/project3.png";
 
 export const myProjects = [
   {

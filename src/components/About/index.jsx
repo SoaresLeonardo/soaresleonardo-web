@@ -20,7 +20,7 @@ export function AboutPage() {
     <About id="about">
       <AboutContainer>
         <AboutImage>
-          <img src="../../../public/fotoabout.jpeg" alt="About Image" />
+          <img src="/fotoabout.jpeg" alt="About Image" />
         </AboutImage>
         <AboutIntro>
           <Title>Sobre mim</Title>

@@ -28,7 +28,7 @@ export default function HomePage() {
           </HomeActions>
         </HomeIntro>
         <HomeImage>
-          <img src="../../public/foto.jpg" alt="Home image" />
+          <img src="/foto.jpg" alt="Home image" />
         </HomeImage>
       </HomeContainer>
     </Home>
