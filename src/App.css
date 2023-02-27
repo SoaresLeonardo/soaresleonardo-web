@@ -18,6 +18,6 @@ a {
   text-decoration: none;
 }
 
-p {
+p, span {
   color: #aca9b9;
 }
