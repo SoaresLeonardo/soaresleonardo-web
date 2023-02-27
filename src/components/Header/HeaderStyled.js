@@ -38,10 +38,7 @@ export const Menu = styled.div`
   @media (max-width: 560px) {
     display: flex;
     position: absolute;
-    left: 80%;
-  }
-  @media (max-width: 340px) {
-    left: 70%;
+    left: 90%;
   }
   @media (max-width: 280px) {
     display: flex;
