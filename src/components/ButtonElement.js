@@ -9,4 +9,8 @@ export const ButtonElement = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  &:hover {
+    background-color: #7c65eb;
+  }
 `;
