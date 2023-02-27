@@ -21,10 +21,13 @@ export default function ContactPage() {
           </Subtitle>
         </ContactIntro>
         <SocialContainer>
-          <Social>
+          <Social href="https://github.com/SoaresLeonardo" target="_blank">
             <AiFillGithub />
           </Social>
-          <Social>
+          <Social
+            href="https://www.instagram.com/leosoareshenrique/"
+            target="_blank"
+          >
             <AiOutlineInstagram />
           </Social>
         </SocialContainer>
