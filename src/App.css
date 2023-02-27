@@ -8,10 +8,27 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 89.5%;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 81.25%;
+  }
+}
+
 body {
   background-color: #14121c;
   color: #f2f1f3;
-  overflow-x: hidden;
+  font-size: 93.75%;
 }
 
 a {
@@ -19,6 +36,7 @@ a {
   text-decoration: none;
 }
 
-p, span {
+p,
+span {
   color: #aca9b9;
 }

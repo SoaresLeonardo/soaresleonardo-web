@@ -21,7 +21,11 @@ export const HomeIntro = styled.div`
   width: 40%;
 
   @media (max-width: 920px) {
-    width: 95%;
+    width: 60%;
+  }
+
+  @media (max-width: 490px) {
+    width: 90%;
   }
 `;
 
@@ -76,7 +80,6 @@ export const HomeImage = styled.div`
 export const HomeActions = styled.div`
   margin-top: 30px;
   display: flex;
-
   a {
     margin-left: 20px;
   }
@@ -91,7 +94,7 @@ export const HomeActions = styled.div`
     color: #6e57e0;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 490px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;

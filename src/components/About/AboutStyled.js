@@ -20,7 +20,6 @@ export const AboutIntro = styled.div`
 
   @media (max-width: 760px) {
     width: 90%;
-    padding-top: 20px;
   }
 `;
 export const AboutImage = styled.div`
@@ -39,12 +38,6 @@ export const AboutImage = styled.div`
   }
   @media (max-width: 760px) {
     width: 100%;
-  }
-  @media (max-width: 360px) {
-    img {
-      width: 13rem;
-      height: 13rem;
-    }
   }
 `;
 export const Title = styled.h1``;
