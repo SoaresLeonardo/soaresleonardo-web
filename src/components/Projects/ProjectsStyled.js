@@ -51,6 +51,12 @@ export const Card = styled.div`
     margin-bottom: 20px;
     width: 80%;
   }
+
+  &:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 1px 0px 8px 3px #6c5ce7a6;
+  }
 `;
 export const CardImage = styled.div`
   img {

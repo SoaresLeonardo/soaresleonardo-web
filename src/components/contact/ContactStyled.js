@@ -37,4 +37,9 @@ export const Social = styled.a`
   display: flex;
   align-items: center;
   border-radius: 50px;
+
+  &:hover {
+    box-shadow: 1px 0px 8px 3px #6c5ce7a6;
+    transition: 0.2s;
+  }
 `;
