@@ -50,8 +50,12 @@ export const AboutImage = styled.div`
 export const Title = styled.h1``;
 export const Subtitle = styled.span`
   color: #6e57e0;
+  font-weight: bold;
 `;
-export const Description = styled.p``;
+export const Description = styled.p`
+  padding-top: 8px;
+  padding-bottom: 8px;
+`;
 export const AboutSkillsContainer = styled.div`
   width: 100%;
   margin: 1rem 0;
