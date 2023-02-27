@@ -1,5 +1,6 @@
 import "./App.css";
 import { AboutPage } from "./components/About";
+import ContactPage from "./components/contact";
 import FooterPage from "./components/Footer";
 import HeaderPage from "./components/Header";
 import ProjectsPage from "./components/Projects";
@@ -12,7 +13,8 @@ export default function App() {
       <HomePage />
       <AboutPage />
       <ProjectsPage />
-      <FooterPage/>
+      <ContactPage />
+      <FooterPage />
     </div>
   );
 }

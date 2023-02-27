@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Footer = styled.div`
   max-width: 1224px;
-  margin: 0 auto;
-
+  margin: auto;
+  margin-top: 80px;
   @media (max-width: 760px) {
     background-color: #252231;
   }
