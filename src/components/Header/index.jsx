@@ -21,7 +21,7 @@ export default function HeaderPage() {
     <Header id="home">
       <HeaderContainer>
         <TitleContainer>
-          <Title>Leonardo</Title>
+          <Title>Leonardo.</Title>
         </TitleContainer>
         <Menu>
           {sidebar ? (
