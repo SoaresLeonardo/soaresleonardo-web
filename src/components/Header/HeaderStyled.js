@@ -52,17 +52,21 @@ export const HeaderLinks = styled.nav`
   @media (max-width: 560px) {
     flex-direction: column;
     background-color: #6e57e0;
-    position: fixed;
+    position: absolute;
     height: 60%;
     gap: 0px;
-    top: 90px;
+    top: 70px;
     right: 0px;
     width: 100%;
+    height: 400px;
     right: ${(props) => (props.sidebar ? "0" : "-100%")};
     transition: 0.3s;
     a {
-      margin-top: 30px;
+      margin-top: 50px;
       margin-left: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
     }
   }
 `;
@@ -94,5 +98,11 @@ export const Link = styled.div`
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+  }
+
+  @media(max-width: 768px) {
+    a {
+      position: inherit;
+    }
   }
 `;
