@@ -48,11 +48,10 @@ export const Menu = styled.div`
 export const HeaderLinks = styled.nav`
   display: flex;
   gap: 30px;
-
   @media (max-width: 560px) {
     flex-direction: column;
     background-color: #6e57e0;
-    position: absolute;
+    position: ${(props) => (props.sidebar ? 'absolute' : 'fixed')};
     height: 60%;
     gap: 0px;
     top: 70px;
@@ -100,7 +99,7 @@ export const Link = styled.div`
     transform: scaleX(1);
   }
 
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     a {
       position: inherit;
     }
