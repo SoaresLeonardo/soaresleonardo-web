@@ -18,7 +18,7 @@ export default function HomePage() {
       <HomeContainer>
         <HomeIntro>
           <Subtitle>Olá,</Subtitle>
-          <Title>Eu sou Leonardo.</Title>
+          <Title>Eu sou Leonardo</Title>
           <Description>Desenvolvedor front-end</Description>
           <HomeActions>
             <ButtonElement href="#projects">
