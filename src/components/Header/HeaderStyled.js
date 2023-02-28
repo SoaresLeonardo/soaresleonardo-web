@@ -51,6 +51,7 @@ export const HeaderLinks = styled.nav`
   gap: 30px;
   @media (max-width: 560px) {
     flex-direction: column;
+    color: white;
     background-color: #6e57e0;
     position: fixed;
     height: 60%;
@@ -67,6 +68,7 @@ export const HeaderLinks = styled.nav`
       display: flex;
       align-items: center;
       justify-content: space-around;
+      color: white;
     }
   }
 `;
