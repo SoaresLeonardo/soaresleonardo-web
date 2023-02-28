@@ -128,5 +128,5 @@ export const ThemeButton = styled.button`
   border: none;
   cursor: pointer;
   color: ${(props) => props.theme.color};
-  font-size: 1rem;
+  font-size: 16px;
 `;
