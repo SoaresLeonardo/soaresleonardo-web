@@ -35,7 +35,7 @@ export default function HeaderPage() {
             <a href="#home">Home</a>
           </Link>
           <Link>
-            <a href="#about">Sobre mim</a>
+            <a href="#about">Sobre</a>
           </Link>
           <Link>
             <a href="#projects">Projetos</a>

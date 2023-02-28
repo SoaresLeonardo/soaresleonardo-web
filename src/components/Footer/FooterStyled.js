@@ -5,7 +5,7 @@ export const Footer = styled.div`
   margin: auto;
   margin-top: 80px;
   @media (max-width: 760px) {
-    background-color: #252231;
+    background-color: #eeeeee;
   }
 `;
 export const FooterContainer = styled.div`

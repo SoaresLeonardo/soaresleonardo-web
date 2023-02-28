@@ -20,45 +20,44 @@ export const HomeIntro = styled.div`
   text-align: start;
   width: 40%;
 
+  h1,
+  span {
+    font-size: 5rem;
+    @media (max-width: 468px) {
+      font-size: 4rem;
+    }
+    @media (max-width: 364px) {
+      font-size: 3.5rem;
+    }
+    @media (max-width: 336px) {
+      font-size: 3rem;
+    }
+
+    @media (max-width: 280px) {
+      font-size: 2.4rem;
+    }
+  }
   @media (max-width: 920px) {
-    width: 60%;
+    width: 80%;
   }
 
   @media (max-width: 490px) {
     width: 90%;
   }
-`;
 
-export const Subtitle = styled.span`
-  color: #6e57e0;
-  font-size: 2rem;
-`;
-
-export const Title = styled.h1`
-  font-size: 5rem;
-
-  @media (max-width: 468px) {
-    font-size: 4rem;
-  }
-  @media (max-width: 364px) {
-    font-size: 3.5rem;
-  }
-  @media (max-width: 336px) {
-    font-size: 3rem;
-  }
-
-  @media (max-width: 280px) {
-    font-size: 2.4rem;
+  span {
+    font-weight: bold;
+    color: #6e57e0;
   }
 `;
 
+export const Subtitle = styled.span``;
+export const Title = styled.h1``;
 export const Description = styled.p`
-  @media (max-width: 280px) {
-    font-size: 0.8rem;
-  }
+  font-size: 1.2rem;
 `;
 export const HomeImage = styled.div`
-  width: 30%;
+  width: 35%;
   img {
     width: 100%;
     border-bottom-left-radius: 50px;
@@ -90,8 +89,12 @@ export const HomeActions = styled.div`
 
   a:nth-child(2) {
     background-color: inherit;
-    border: 2px solid #6e57e0;
     color: #6e57e0;
+    font-weight: bold;
+
+    @media (max-width: 760px) {
+      border: 2px solid #6e57e0;
+    }
   }
 
   @media (max-width: 490px) {

@@ -8,7 +8,7 @@ export const Header = styled.div`
 
 
   @media (max-width: 760px) {
-    background-color: #252231;
+    background-color: #eeeeee;
   }
 `;
 

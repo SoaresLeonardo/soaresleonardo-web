@@ -4,7 +4,7 @@ export default function FooterPage() {
   return (
     <Footer>
       <FooterContainer>
-        <Title>© Todos os direitos reservado para o Leonardo </Title>
+        <Title>Copyright © 2023 Leonardo</Title>
       </FooterContainer>
     </Footer>
   );
