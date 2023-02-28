@@ -26,17 +26,9 @@ html {
 }
 
 body {
-  background-color: #ffffff;
-  color: #242424;
   font-size: 93.75%;
 }
 
 a {
-  color: #242424;
   text-decoration: none;
-}
-
-p,
-span {
-  color: #636363;
 }

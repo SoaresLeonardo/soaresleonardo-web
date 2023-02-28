@@ -6,13 +6,16 @@ import {
   HeaderLinks,
   Link,
   Menu,
+  ThemeButton,
+  ThemeSelect,
   Title,
   TitleContainer,
 } from "./HeaderStyled";
 
 import { FaTimes, FaBars } from "react-icons/fa";
+import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 
-export default function HeaderPage() {
+export default function HeaderPage({ handleTheme, theme }) {
   const [sidebar, setSidebar] = useState(false);
   const showSiderbar = () => {
     setSidebar(!sidebar);
@@ -29,7 +32,7 @@ export default function HeaderPage() {
         </Menu>
         <HeaderLinks sidebar={sidebar}>
           <CloseSidebar>
-          <FaTimes onClick={showSiderbar} />
+            <FaTimes onClick={showSiderbar} />
           </CloseSidebar>
           <Link>
             <a href="#home">Home</a>
@@ -44,6 +47,9 @@ export default function HeaderPage() {
             <a href="#contact">Contato</a>
           </Link>
         </HeaderLinks>
+        <ThemeSelect>
+          <ThemeButton onClick={handleTheme}>{theme === "light" ? <BsFillMoonFill />: <BsFillSunFill/>}</ThemeButton>
+        </ThemeSelect>
       </HeaderContainer>
     </Header>
   );

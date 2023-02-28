@@ -29,7 +29,7 @@ export const Card = styled.div`
   width: 300px;
   padding: 20px;
   margin-left: 20px;
-  box-shadow: 1px 0px 8px 3px #6c5ce750;
+  background-color: ${(props) => props.theme.background};
   border-radius: 3px;
 
   a {
@@ -51,19 +51,15 @@ export const Card = styled.div`
     margin-bottom: 20px;
     width: 80%;
   }
-
-  &:hover {
-    transform: scale(1.03);
-    transition: 0.3s;
-    box-shadow: 1px 0px 8px 3px #6c5ce7a6;
-  }
 `;
 export const CardImage = styled.div`
   img {
     width: 100%;
   }
 `;
-export const CardName = styled.h2``;
+export const CardName = styled.h2`
+  color: #6e57e0;
+`;
 export const CardDescription = styled.p`
   padding-top: 8px;
   padding-bottom: 20px;

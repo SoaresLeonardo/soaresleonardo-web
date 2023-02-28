@@ -6,9 +6,8 @@ export const Header = styled.div`
   justify-content: center;
   height: 80px;
 
-
   @media (max-width: 760px) {
-    background-color: #eeeeee;
+    background-color: ${(props) => props.theme.background};
   }
 `;
 
@@ -40,7 +39,7 @@ export const Menu = styled.div`
   @media (max-width: 560px) {
     display: flex;
     position: absolute;
-    left: 90%;
+    left: 80%;
   }
   @media (max-width: 280px) {
     display: flex;
@@ -72,7 +71,6 @@ export const HeaderLinks = styled.nav`
   }
 `;
 
-
 export const CloseSidebar = styled.div`
   font-size: 30px;
   right: 15px;
@@ -80,7 +78,7 @@ export const CloseSidebar = styled.div`
   position: absolute;
   display: none;
   cursor: pointer;
-  
+
   @media (max-width: 560px) {
     display: flex;
   }
@@ -120,4 +118,13 @@ export const Link = styled.div`
       position: inherit;
     }
   }
+`;
+
+export const ThemeSelect = styled.div``;
+export const ThemeButton = styled.button`
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  color: ${(props) => props.theme.color};
+  font-size: 1rem;
 `;
