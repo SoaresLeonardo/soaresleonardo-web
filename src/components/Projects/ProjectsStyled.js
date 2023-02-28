@@ -30,7 +30,7 @@ export const Card = styled.div`
   padding: 20px;
   margin-left: 20px;
   background-color: ${(props) => props.theme.background};
-  border-radius: 3px;
+  border-radius: 10px;
 
   a {
     width: 70px;
