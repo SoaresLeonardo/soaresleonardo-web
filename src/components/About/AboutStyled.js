@@ -23,14 +23,13 @@ export const AboutIntro = styled.div`
   }
 `;
 export const AboutImage = styled.div`
-  width: 35%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
 
   img {
     width: 100%;
-    border-radius: 25px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 0;
@@ -75,7 +74,8 @@ export const SkillCheck = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  font-size: 1.5rem;
+  height: 45px;
   border-radius: 3px;
 `;
