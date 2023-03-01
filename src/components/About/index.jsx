@@ -24,7 +24,7 @@ export function AboutPage() {
         </AboutImage>
         <AboutIntro>
           <Title>Quem eu sou?</Title>
-          <Subtitle>Desenvolvedor front-end</Subtitle>
+          <Subtitle>Introdução</Subtitle>
 
           {aboutInfo.map((item) => (
             <Description key={item}>{item}</Description>
