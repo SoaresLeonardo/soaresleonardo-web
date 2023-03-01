@@ -22,7 +22,7 @@ export const AboutIntro = styled.div`
   }
 `;
 export const AboutImage = styled.div`
-  width: 40%;
+  width: 37%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,10 +51,9 @@ export const Description = styled.p`
 `;
 
 export const AboutSkillsContainer = styled.div`
-  margin: 3rem 0;
+  margin: 2rem 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
 `;
@@ -64,12 +63,13 @@ export const ExperienceIcon = styled.div`
 `;
 
 export const AboutSkill = styled.div`
-  width: 26%;
+  width: 36%;
   display: flex;
   padding: 15px;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  border-radius: 10px;
   gap: 1rem;
   border: 1px solid ${(props) => props.theme.background};
 

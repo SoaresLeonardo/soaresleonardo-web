@@ -1,7 +1,9 @@
 const myProject1 = "/project1.png";
 const myProject2 = "/project2.png";
 const myProject3 = "/project3.png";
-import { FaMedal } from "react-icons/fa";
+import { BsFillLightbulbFill } from "react-icons/bs";
+import { TbCertificate } from "react-icons/tb";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
 export const myProjects = [
   {
@@ -40,21 +42,15 @@ export const aboutInfo = [
 export const aboutSkills = [
   {
     id: 1,
-    icon: FaMedal,
-    name: "Experience",
-    description: "1 ano",
+    icon: BsFillLightbulbFill,
+    name: "Experiência",
+    description: "1 + anos",
   },
   {
-    id: 1,
-    icon: FaMedal,
-    name: "Experience",
-    description: "1 ano",
-  },
-  {
-    id: 1,
-    icon: FaMedal,
-    name: "Experience",
-    description: "1 ano",
+    id: 2,
+    icon: AiOutlineFundProjectionScreen,
+    name: "Completos",
+    description: "10 + projetos",
   },
 ];
 
