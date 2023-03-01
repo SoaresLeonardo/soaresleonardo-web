@@ -20,7 +20,7 @@ export const ProjectsCard = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 40px;
 `;
 export const Card = styled.div`
   display: flex;

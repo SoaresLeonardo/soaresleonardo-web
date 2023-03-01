@@ -44,7 +44,6 @@ export const Title = styled.h1`
 export const Subtitle = styled.span`
   color: #6e57e0;
   font-weight: bold;
-  text-decoration: underline;
 `;
 export const Description = styled.p`
   padding-top: 8px;
@@ -52,22 +51,20 @@ export const Description = styled.p`
 `;
 export const AboutSkillsContainer = styled.div`
   margin: 1rem 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border: 2px solid ${(props) => props.theme.background};
   gap: 2.6rem;
-  border-radius: 10px;
   padding: 20px;
 `;
 
 export const Skill = styled.div`
-  width: 45%;
+  width: 38%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
-  border-radius: 5px;
 
   @media (max-width: 500px) {
     width: 100%;
@@ -77,6 +74,6 @@ export const SkillName = styled.span`
   color: ${(props) => props.theme.color};
 `;
 export const SkillCheck = styled.div`
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: #6e57e0;
 `;
