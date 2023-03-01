@@ -12,55 +12,33 @@ import {
   Title,
 } from "./AboutStyled";
 
-import { AiOutlineCheck } from "react-icons/ai";
-import { aboutInfo } from "../../Data";
+import { AiFillCheckCircle } from "react-icons/ai";
+import { aboutInfo, skillsFrontEndInfo } from "../../Data";
 
 export function AboutPage() {
   return (
     <About id="about">
       <AboutContainer>
         <AboutImage>
-          <img src="/fotoabout.jpeg" alt="About Image" />
+          <img src="/fotoabout.jpg" alt="About Image" />
         </AboutImage>
         <AboutIntro>
-          <Title>Sobre mim</Title>
-          <Subtitle>Um pouco de quem eu sou...</Subtitle>
+          <Subtitle>Sobre mim</Subtitle>
+          <Title>Mas afinal, quem sou eu?</Title>
 
           {aboutInfo.map((item) => (
             <Description key={item}>{item}</Description>
           ))}
 
           <AboutSkillsContainer>
-            <Skill>
-              <SkillCheck>
-                <AiOutlineCheck />
-              </SkillCheck>
-              <SkillName>HTMl5</SkillName>
-            </Skill>
-            <Skill>
-              <SkillCheck>
-                <AiOutlineCheck />
-              </SkillCheck>
-              <SkillName>CSS3</SkillName>
-            </Skill>
-            <Skill>
-              <SkillCheck>
-                <AiOutlineCheck />
-              </SkillCheck>
-              <SkillName>JavaScript</SkillName>
-            </Skill>
-            <Skill>
-              <SkillCheck>
-                <AiOutlineCheck />
-              </SkillCheck>
-              <SkillName>ReactJS</SkillName>
-            </Skill>
-            <Skill>
-              <SkillCheck>
-                <AiOutlineCheck />
-              </SkillCheck>
-              <SkillName>NodeJS</SkillName>
-            </Skill>
+            {skillsFrontEndInfo.map((item) => (
+              <Skill>
+                <SkillCheck>
+                  <AiFillCheckCircle />
+                </SkillCheck>
+                <SkillName>{item}</SkillName>
+              </Skill>
+            ))}
           </AboutSkillsContainer>
         </AboutIntro>
       </AboutContainer>

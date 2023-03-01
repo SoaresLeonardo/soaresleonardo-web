@@ -35,3 +35,5 @@ export const myProjects = [
 export const aboutInfo = [
   "Me chamo Leo e sou um programador com experiência, e com vários projetos no ar, busco ajudar as pessoas na área de desenvolvimento com o meu conhecimento e dar o máximo de mim para realizar um ótimo trabalho!",
 ];
+
+export const skillsFrontEndInfo = ["HTML", "CSS", "JavaScript", "React", "Git", 'NodeJS'];
