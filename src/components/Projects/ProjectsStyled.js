@@ -26,12 +26,11 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
-  padding: 20px;
+  width: 350px;
   margin-left: 20px;
-  background-color: ${(props) => props.theme.background};
-  border-radius: 10px;
-
+  border-radius: 20px;
+  border: 1px solid ${(props) => props.theme.background};
+  padding-bottom: 20px;
   a {
     width: 70px;
     padding: 10px;
@@ -53,6 +52,9 @@ export const Card = styled.div`
   }
 `;
 export const CardImage = styled.div`
+  background-color: ${(props) => props.theme.background};
+  border-radius: 20px;
+  padding-bottom: 10px;
   img {
     width: 100%;
   }
@@ -61,8 +63,7 @@ export const CardName = styled.h2`
   color: #6e57e0;
 `;
 export const CardDescription = styled.p`
-  padding-top: 8px;
-  padding-bottom: 20px;
+  padding: 10px;
 `;
 export const CardActions = styled.div`
   display: flex;
