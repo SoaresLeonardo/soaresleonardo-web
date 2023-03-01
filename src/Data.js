@@ -1,6 +1,7 @@
 const myProject1 = "/project1.png";
 const myProject2 = "/project2.png";
 const myProject3 = "/project3.png";
+import { FaMedal } from "react-icons/fa";
 
 export const myProjects = [
   {
@@ -36,4 +37,32 @@ export const aboutInfo = [
   "Me chamo Leo e sou um programador com experiência, e com vários projetos no ar, busco ajudar as pessoas na área de desenvolvimento com o meu conhecimento e dar o máximo de mim para realizar um ótimo trabalho!",
 ];
 
-export const skillsFrontEndInfo = ["HTML", "CSS", "JavaScript", "React", "Git", 'NodeJS'];
+export const aboutSkills = [
+  {
+    id: 1,
+    icon: FaMedal,
+    name: "Experience",
+    description: "1 ano",
+  },
+  {
+    id: 1,
+    icon: FaMedal,
+    name: "Experience",
+    description: "1 ano",
+  },
+  {
+    id: 1,
+    icon: FaMedal,
+    name: "Experience",
+    description: "1 ano",
+  },
+];
+
+export const skillsFrontEndInfo = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Git",
+  "NodeJS",
+];

@@ -1,19 +1,19 @@
 import {
   About,
   AboutContainer,
+  AboutSkillsContainer,
   AboutImage,
   AboutIntro,
-  AboutSkillsContainer,
-  Description,
-  Skill,
-  SkillCheck,
-  SkillName,
   Subtitle,
   Title,
+  AboutSkill,
+  AboutSkillIcon,
+  AboutSkillName,
+  AboutSkillDescription,
+  Description,
 } from "./AboutStyled";
 
-import { AiFillCheckCircle } from "react-icons/ai";
-import { aboutInfo, skillsFrontEndInfo } from "../../Data";
+import { aboutInfo, aboutSkills } from "../../Data";
 
 export function AboutPage() {
   return (
@@ -28,19 +28,32 @@ export function AboutPage() {
           {aboutInfo.map((item) => (
             <Description key={item}>{item}</Description>
           ))}
-
           <AboutSkillsContainer>
-            {skillsFrontEndInfo.map((item) => (
-              <Skill>
-                <SkillCheck>
-                  <AiFillCheckCircle />
-                </SkillCheck>
-                <SkillName>{item}</SkillName>
-              </Skill>
+            {aboutSkills.map((item) => (
+              <AboutSkill>
+                <AboutSkillIcon>{<item.icon />}</AboutSkillIcon>
+                <AboutSkillName>{item.name}</AboutSkillName>
+                <AboutSkillDescription>
+                  {item.description}
+                </AboutSkillDescription>
+              </AboutSkill>
             ))}
           </AboutSkillsContainer>
         </AboutIntro>
       </AboutContainer>
     </About>
   );
+}
+
+{
+  /* <AboutSkillsContainer>
+              {skillsFrontEndInfo.map((item) => (
+                <Skill>
+                  <SkillCheck>
+                    <AiFillCheckCircle />
+                  </SkillCheck>
+                  <SkillName>{item}</SkillName>
+                </Skill>
+              ))}
+            </AboutSkillsContainer> */
 }

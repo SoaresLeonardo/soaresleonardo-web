@@ -46,34 +46,45 @@ export const Subtitle = styled.span`
   font-weight: bold;
 `;
 export const Description = styled.p`
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 `;
+
 export const AboutSkillsContainer = styled.div`
-  margin: 1rem 0;
+  margin: 3rem 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 2.6rem;
-  padding: 20px;
+  gap: 1rem;
 `;
 
-export const Skill = styled.div`
-  width: 38%;
+export const ExperienceIcon = styled.div`
+  font-size: 2rem;
+`;
+
+export const AboutSkill = styled.div`
+  width: 26%;
   display: flex;
+  padding: 15px;
   align-items: center;
   justify-content: flex-start;
+  flex-direction: column;
   gap: 1rem;
+  border: 1px solid ${(props) => props.theme.background};
 
-  @media (max-width: 500px) {
+  @media (max-width: 670px) {
+    width: 35%;
+  }
+
+  @media (max-width: 330px) {
     width: 100%;
   }
 `;
-export const SkillName = styled.span`
-  color: ${(props) => props.theme.color};
+export const AboutSkillIcon = styled.div`
+  font-size: 1.5rem;
 `;
-export const SkillCheck = styled.div`
-  font-size: 2.3rem;
+export const AboutSkillName = styled.h3`
   color: #6e57e0;
 `;
+export const AboutSkillDescription = styled.p``;
