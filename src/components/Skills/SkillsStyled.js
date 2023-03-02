@@ -30,15 +30,14 @@ export const SkillsIntro = styled.div`
 export const Title = styled.h1`
   text-align: center;
 `;
-export const Subtitle = styled.h1``;
-export const Description = styled.p``;
+
 export const SkillsInfo = styled.div`
-  /* box-shadow: 10px 10px 0 #6e57e0; */
   background-color: ${(props) => props.theme.body};
   padding: 30px;
   width: 40%;
   border-radius: 10px;
   margin: 2rem 0;
+  
   h1 {
     font-size: 1.5rem;
   }
