@@ -48,7 +48,7 @@ export const Card = styled.div`
   @media (max-width: 768px) {
     margin-left: 0;
     margin-bottom: 20px;
-    width: 80%;
+    width: 90%;
   }
 `;
 export const CardImage = styled.div`
