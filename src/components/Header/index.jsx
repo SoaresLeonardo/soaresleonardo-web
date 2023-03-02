@@ -41,6 +41,9 @@ export default function HeaderPage({ handleTheme, theme }) {
             <a href="#about">Sobre</a>
           </Link>
           <Link  onClick={showSiderbar}>
+            <a href="#skills">Skills</a>
+          </Link>
+          <Link  onClick={showSiderbar}>
             <a href="#projects">Projetos</a>
           </Link>
           <Link  onClick={showSiderbar}>
