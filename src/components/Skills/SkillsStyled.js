@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Skills = styled.div`
   max-width: 1400px;
   margin: 0 auto;
-  padding: 50px;
-  background-image: url('/skillsImage.svg');
+  padding: 5rem 0;
+  background-image: url("/skillsImage.svg");
   background-size: cover;
   background-position: center center;
 
@@ -36,7 +36,7 @@ export const SkillsInfo = styled.div`
   width: 40%;
   border-radius: 10px;
   margin: 2rem 0;
-  
+
   h1 {
     font-size: 1.5rem;
   }

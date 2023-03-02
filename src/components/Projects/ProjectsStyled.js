@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Projects = styled.div`
   max-width: 1224px;
-  margin: 150px auto;
+  margin: 80px auto;
 `;
 export const ProjectsContainer = styled.div`
   display: flex;
