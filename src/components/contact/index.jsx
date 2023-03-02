@@ -2,35 +2,42 @@ import {
   Contact,
   ContactContainer,
   ContactIntro,
-  Social,
+  ContatoImage,
+  Description,
   SocialContainer,
   Subtitle,
   Title,
 } from "./ContactStyled";
 
 import { AiFillGithub, AiOutlineInstagram } from "react-icons/ai";
+import { ButtonElement } from "../ButtonElement";
 
 export default function ContactPage() {
   return (
     <Contact id="contact">
       <ContactContainer>
         <ContactIntro>
+          <Subtitle>Contato</Subtitle>
           <Title>Onde me encontrar</Title>
-          <Subtitle>
-            Caso queira bater um papo, essas são minhas redes:
-          </Subtitle>
+          <Description>
+            Caso tenha ficado interessado nas minhas abilidades ou quer bater um
+            papo. Segue os links ai em baixo!
+          </Description>
+          <SocialContainer>
+            <ButtonElement>
+              <AiFillGithub />
+              GitHub
+            </ButtonElement>
+            <ButtonElement>
+              <AiOutlineInstagram />
+              Instagram
+            </ButtonElement>
+          </SocialContainer>
         </ContactIntro>
-        <SocialContainer>
-          <Social href="https://github.com/SoaresLeonardo" target="_blank">
-            <AiFillGithub />
-          </Social>
-          <Social
-            href="https://www.instagram.com/leosoareshenrique/"
-            target="_blank"
-          >
-            <AiOutlineInstagram />
-          </Social>
-        </SocialContainer>
+
+        <ContatoImage>
+          <img src="/contato.jpg" alt="" />
+        </ContatoImage>
       </ContactContainer>
     </Contact>
   );
