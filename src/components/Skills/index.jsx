@@ -17,7 +17,7 @@ import { AiFillCheckCircle } from "react-icons/ai";
 
 export default function SkillsPage() {
   return (
-    <Skills id="skills">
+    <Skills>
       <SkillsIntro>
         <Title>Minhas Skills</Title>
         <Subtitle></Subtitle>
