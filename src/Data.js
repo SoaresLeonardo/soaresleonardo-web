@@ -54,11 +54,6 @@ export const aboutSkills = [
   },
 ];
 
-export const skillsFrontEndInfo = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "Git",
-  "NodeJS",
-];
+export const skillsFrontEndInfo = ["HTML", "CSS", "JavaScript", "React", "Git"];
+
+export const skillsBackendInfo = ["NodeJS", 'MongoDB'];

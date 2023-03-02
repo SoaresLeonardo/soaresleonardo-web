@@ -6,6 +6,7 @@ import ContactPage from "./components/contact";
 import FooterPage from "./components/Footer";
 import HeaderPage from "./components/Header";
 import ProjectsPage from "./components/Projects";
+import SkillsPage from "./components/Skills";
 import { GlobalStyles } from "./global";
 import HomePage from "./pages";
 
@@ -24,6 +25,7 @@ export default function App() {
       <HeaderPage handleTheme={handleTheme} theme={theme} />
       <HomePage />
       <AboutPage />
+      <SkillsPage />
       <ProjectsPage />
       <ContactPage />
       <FooterPage />

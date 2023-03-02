@@ -23,8 +23,8 @@ export function AboutPage() {
           <img src="/fotoabout.jpg" alt="About Image" />
         </AboutImage>
         <AboutIntro>
-          <Title>Quem eu sou?</Title>
           <Subtitle>Introdução</Subtitle>
+          <Title>Quem eu sou?</Title>
 
           {aboutInfo.map((item) => (
             <Description key={item}>{item}</Description>
