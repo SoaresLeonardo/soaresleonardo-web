@@ -2,7 +2,6 @@ import { skillsBackendInfo, skillsFrontEndInfo } from "../../Data";
 import {
   CardCheck,
   CardName,
-  Description,
   SkillCard,
   Skills,
   SkillsContainer,
@@ -19,7 +18,6 @@ export default function SkillsPage() {
     <Skills>
       <SkillsIntro>
         <Title>Minhas Skills</Title>
-        <Description></Description>
       </SkillsIntro>
       <SkillsContainer>
         <SkillsInfo>
