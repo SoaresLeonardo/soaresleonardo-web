@@ -34,19 +34,16 @@ export default function HeaderPage({ handleTheme, theme }) {
           <CloseSidebar>
             <FaTimes onClick={showSiderbar} />
           </CloseSidebar>
-          <Link  onClick={showSiderbar}>
+          <Link onClick={showSiderbar}>
             <a href="#home">Home</a>
           </Link>
-          <Link  onClick={showSiderbar}>
+          <Link onClick={showSiderbar}>
             <a href="#about">Sobre</a>
           </Link>
-          <Link  onClick={showSiderbar}>
-            <a href="#skills">Skills</a>
-          </Link>
-          <Link  onClick={showSiderbar}>
+          <Link onClick={showSiderbar}>
             <a href="#projects">Projetos</a>
           </Link>
-          <Link  onClick={showSiderbar}>
+          <Link onClick={showSiderbar}>
             <a href="#contact">Contato</a>
           </Link>
         </HeaderLinks>
