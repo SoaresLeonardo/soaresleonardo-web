@@ -39,9 +39,7 @@ export const AboutImage = styled.div`
     padding-bottom: 10px;
   }
 `;
-export const Title = styled.h1`
-  font-size: 2.4rem;
-`;
+export const Title = styled.h1``;
 export const Subtitle = styled.span`
   color: #6e57e0;
   font-weight: bold;

@@ -25,6 +25,10 @@ html {
   }
 }
 
+h1 {
+  font-size: 2.7rem;
+}
+
 body {
   font-size: 93.75%;
 }

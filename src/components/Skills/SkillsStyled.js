@@ -25,7 +25,6 @@ export const SkillsContainer = styled.div`
 `;
 export const SkillsIntro = styled.div`
   color: white;
-  font-size: 1.3rem;
 `;
 export const Title = styled.h1`
   text-align: center;
