@@ -4,7 +4,9 @@ export const Skills = styled.div`
   max-width: 1400px;
   margin: 0 auto;
   padding: 50px;
-  background-color: #6e57e0;
+  background-image: url('/skillsImage.svg');
+  background-size: cover;
+  background-position: center center;
 
   @media (max-width: 760px) {
     padding: 20px;
