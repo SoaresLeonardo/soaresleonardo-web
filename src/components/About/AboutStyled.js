@@ -22,7 +22,7 @@ export const AboutIntro = styled.div`
   }
 `;
 export const AboutImage = styled.div`
-  width: 37%;
+  width: 39%;
   display: flex;
   align-items: center;
   justify-content: center;
