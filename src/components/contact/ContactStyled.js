@@ -33,7 +33,7 @@ export const ContactIntro = styled.div`
     position: absolute;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid ${props => props.theme.body};
+    border-bottom: 20px solid ${(props) => props.theme.body};
     top: -20px;
     left: 20%;
   }
@@ -46,6 +46,7 @@ export const Title = styled.h1``;
 export const Subtitle = styled.span`
   color: #6e57e0;
   font-weight: bold;
+  text-decoration: underline solid #6e57e0 2px;
 `;
 export const SocialContainer = styled.div`
   padding-top: 20px;

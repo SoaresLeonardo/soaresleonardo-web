@@ -43,6 +43,7 @@ export const Title = styled.h1``;
 export const Subtitle = styled.span`
   color: #6e57e0;
   font-weight: bold;
+  text-decoration: underline solid #6e57e0 2px;
 `;
 export const Description = styled.p`
   padding-top: 8px;
