@@ -9,7 +9,6 @@ import {
   SkillsInfo,
   SkillsIntro,
   SkillsListContainer,
-  Subtitle,
   Title,
 } from "./SkillsStyled";
 
@@ -20,7 +19,6 @@ export default function SkillsPage() {
     <Skills>
       <SkillsIntro>
         <Title>Minhas Skills</Title>
-        <Subtitle></Subtitle>
         <Description></Description>
       </SkillsIntro>
       <SkillsContainer>
