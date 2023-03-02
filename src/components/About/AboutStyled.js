@@ -36,6 +36,7 @@ export const AboutImage = styled.div`
   }
   @media (max-width: 760px) {
     width: 100%;
+    padding-bottom: 10px;
   }
 `;
 export const Title = styled.h1`
@@ -46,7 +47,7 @@ export const Subtitle = styled.span`
   font-weight: bold;
 `;
 export const Description = styled.p`
-  padding-top: 20px;
+  padding-top: 8px;
   padding-bottom: 20px;
 `;
 
@@ -56,10 +57,6 @@ export const AboutSkillsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-`;
-
-export const ExperienceIcon = styled.div`
-  font-size: 2rem;
 `;
 
 export const AboutSkill = styled.div`
