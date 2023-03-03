@@ -24,11 +24,17 @@ export default function ContactPage() {
             papo. Segue os links ai em baixo!
           </Description>
           <SocialContainer>
-            <ButtonElement>
+            <ButtonElement
+              href="https://github.com/SoaresLeonardo"
+              target="_blank"
+            >
               <AiFillGithub />
               GitHub
             </ButtonElement>
-            <ButtonElement>
+            <ButtonElement
+              href="https://www.instagram.com/leosoareshenrique/"
+              target="_blank"
+            >
               <AiOutlineInstagram />
               Instagram
             </ButtonElement>
