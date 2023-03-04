@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Skills = styled.div`
-  max-width: 1400px;
-  margin: 0 auto;
   padding: 5rem 0;
   background-image: url("/skillsImage.svg");
   background-size: cover;
@@ -13,6 +11,8 @@ export const Skills = styled.div`
   }
 `;
 export const SkillsContainer = styled.div`
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-around;

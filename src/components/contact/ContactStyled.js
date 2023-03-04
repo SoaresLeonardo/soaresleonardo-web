@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Contact = styled.div`
-  max-width: 1400px;
-  margin: 0 auto;
   padding: 5rem 0;
   background-image: url("/skillsImage.svg");
   background-size: cover;
   background-position: center center;
 `;
 export const ContactContainer = styled.div`
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
