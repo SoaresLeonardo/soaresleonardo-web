@@ -20,7 +20,7 @@ export default function ContactPage() {
           <Subtitle>Contato</Subtitle>
           <Title>Onde me encontrar</Title>
           <Description>
-            Caso tenha ficado interessado nas minhas abilidades ou quer bater um
+            Caso tenha ficado interessado nas minhas habilidades ou quer bater um
             papo. Segue os links ai em baixo!
           </Description>
           <SocialContainer>
