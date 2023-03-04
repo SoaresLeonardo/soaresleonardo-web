@@ -4,6 +4,7 @@ import {
   ContactIntro,
   ContatoImage,
   Description,
+  SocialActions,
   SocialContainer,
   Subtitle,
   Title,
@@ -24,20 +25,22 @@ export default function ContactPage() {
             papo. Segue os links ai em baixo!
           </Description>
           <SocialContainer>
-            <ButtonElement
-              href="https://github.com/SoaresLeonardo"
-              target="_blank"
-            >
-              <AiFillGithub />
-              GitHub
-            </ButtonElement>
-            <ButtonElement
-              href="https://www.instagram.com/leosoareshenrique/"
-              target="_blank"
-            >
-              <AiOutlineInstagram />
-              Instagram
-            </ButtonElement>
+            <SocialActions>
+              <ButtonElement
+                href="https://github.com/SoaresLeonardo"
+                target="_blank"
+              >
+                <AiFillGithub />
+                GitHub
+              </ButtonElement>
+              <ButtonElement
+                href="https://www.instagram.com/leosoareshenrique/"
+                target="_blank"
+              >
+                <AiOutlineInstagram />
+                Instagram
+              </ButtonElement>
+            </SocialActions>
           </SocialContainer>
         </ContactIntro>
 

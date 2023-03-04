@@ -59,6 +59,10 @@ export const SocialContainer = styled.div`
   a:first-child {
     margin-left: 0;
   }
+
+  @media (max-width: 472px) {
+    justify-content: center;
+  }
 `;
 
 export const ContatoImage = styled.div`
@@ -81,3 +85,15 @@ export const ContatoImage = styled.div`
 `;
 
 export const Description = styled.p``;
+export const SocialActions = styled.div`
+  display: flex;
+
+  @media (max-width: 400px) {
+    flex-direction: column;
+
+    a {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
+`;

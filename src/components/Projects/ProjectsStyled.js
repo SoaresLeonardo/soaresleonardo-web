@@ -67,4 +67,13 @@ export const CardDescription = styled.p`
 `;
 export const CardActions = styled.div`
   display: flex;
+
+  @media(max-width: 300px) {
+    flex-direction: column;
+
+    a {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
 `;
